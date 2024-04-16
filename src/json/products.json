@@ -1,0 +1,1360 @@
+{
+	"products": {
+		"laptop": [
+			{
+				"id": 100,
+				"title": "Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray",
+				"brand": "Apple",
+				"price": 1699,
+				"mrp": 1999,
+				"discount": 21,
+				"category": "laptop",
+				"image": "http://localhost:9000/images/products/laptop/100/lp1.png",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/laptop/100/lp1.png"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/100/lp2.png"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/100/lp3.png"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/100/lp4.png"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/100/lp5.png"
+					}
+				],
+				"badge": "hot",
+				"label": "featured",
+				"product-details": {
+					"description": "The most powerful MacBook Pro ever is here. With the blazing-fast M1 Pro or M1 Max chip — the first Apple silicon designed for pros — you get groundbreaking performance and amazing battery life. Add to that a stunning Liquid Retina XDR display, the best camera and audio ever in a Mac notebook, and all the ports you need. The first notebook of its kind, this MacBook Pro is a beast. M1 Pro takes the exceptional performance of the M1 architecture to a whole new level for pro users.",
+					"display": "14-inch Liquid Retina XDR display"
+				},
+				"specifications": {
+					"processor": "Apple M1 Pro",
+					"ram": "8GB",
+					"storage": "256GB SSD",
+					"display_size": "14 inches",
+					"display_type": "Liquid Retina XDR",
+					"weight": "3.0 pounds",
+					"dimensions": {
+						"height": "0.61 inches",
+						"width": "11.97 inches",
+						"depth": "8.36 inches"
+					},
+					"connectivity": {
+						"wifi": "Wi-Fi 6",
+						"bluetooth": "Bluetooth 5.0"
+					},
+					"battery_life": "Up to 20 hours",
+					"operating_system": "macOS Big Sur"
+				},
+				"additional_information": {
+					"color": "Space Gray",
+					"material": "Aluminum",
+					"warranty": "1 Year Limited Warranty",
+					"features": [
+						"Touch Bar",
+						"Touch ID",
+						"Thunderbolt 3 ports",
+						"Backlit Magic Keyboard"
+					]
+				},
+				"public": {
+					"rating": 5,
+					"reviews": 21671
+				},
+				"availability": {
+					"status": ["In Stock", "Out Of Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			},
+			{
+				"id": 101,
+				"title": "Samsung Galaxy Book",
+				"brand": "Samsung",
+				"price": 1499,
+				"mrp": 1699,
+				"discount": 20,
+				"category": "laptop",
+				"image": "http://localhost:9000/images/products/laptop/101/lp1.jpg",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/laptop/101/lp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/101/lp2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/101/lp3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/101/lp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/101/lp2.jpg"
+					}
+				],
+				"badge": "hot",
+				"label": "featured",
+				"product-details": {
+					"description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+					"display": "14-inch Liquid Retina XDR display"
+				},
+				"specifications": {
+					"processor": "Apple M1 Pro",
+					"ram": "8GB",
+					"storage": "256GB SSD",
+					"display_size": "14 inches",
+					"display_type": "Liquid Retina XDR",
+					"weight": "3.0 pounds",
+					"dimensions": {
+						"height": "0.61 inches",
+						"width": "11.97 inches",
+						"depth": "8.36 inches"
+					},
+					"connectivity": {
+						"wifi": "Wi-Fi 6",
+						"bluetooth": "Bluetooth 5.0"
+					},
+					"battery_life": "Up to 20 hours",
+					"operating_system": "macOS Big Sur"
+				},
+				"additional_information": {
+					"color": "Space Gray",
+					"material": "Aluminum",
+					"warranty": "1 Year Limited Warranty",
+					"features": [
+						"Touch Bar",
+						"Touch ID",
+						"Thunderbolt 3 ports",
+						"Backlit Magic Keyboard"
+					]
+				},
+				"public": {
+					"rating": 5,
+					"reviews": 21671
+				},
+				"availability": {
+					"status": ["In Stock", "Out Of Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			},
+			{
+				"id": 102,
+				"title": "Microsoft Surface Laptop 4",
+				"brand": "Microsoft",
+				"price": 1499,
+				"mrp": 1599,
+				"discount": 10,
+				"category": "laptop",
+				"image": "http://localhost:9000/images/products/laptop/102/lp1.png",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/laptop/102/lp1.png"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/102/lp2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/102/lp3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/102/lp1.png"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/102/lp2.jpg"
+					}
+				],
+				"badge": "hot",
+				"label": "featured",
+				"product-details": {
+					"description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+					"display": "14-inch Liquid Retina XDR display"
+				},
+				"specifications": {
+					"processor": "Apple M1 Pro",
+					"ram": "8GB",
+					"storage": "256GB SSD",
+					"display_size": "14 inches",
+					"display_type": "Liquid Retina XDR",
+					"weight": "3.0 pounds",
+					"dimensions": {
+						"height": "0.61 inches",
+						"width": "11.97 inches",
+						"depth": "8.36 inches"
+					},
+					"connectivity": {
+						"wifi": "Wi-Fi 6",
+						"bluetooth": "Bluetooth 5.0"
+					},
+					"battery_life": "Up to 20 hours",
+					"operating_system": "macOS Big Sur"
+				},
+				"additional_information": {
+					"color": "Space Gray",
+					"material": "Aluminum",
+					"warranty": "1 Year Limited Warranty",
+					"features": [
+						"Touch Bar",
+						"Touch ID",
+						"Thunderbolt 3 ports",
+						"Backlit Magic Keyboard"
+					]
+				},
+				"public": {
+					"rating": 5,
+					"reviews": 21671
+				},
+				"availability": {
+					"status": ["In Stock", "Out Of Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			},
+			{
+				"id": 103,
+				"title": "Infinix INBOOK",
+				"brand": "Apple",
+				"price": 1699,
+				"mrp": 1999,
+				"discount": 21,
+				"category": "laptop",
+				"image": "http://localhost:9000/images/products/laptop/103/lp1.jpg",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/laptop/103/lp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/103/lp2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/103/lp3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/103/lp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/laptop/103/lp2.jpg"
+					}
+				],
+				"badge": "hot",
+				"label": "featured",
+				"product-details": {
+					"description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey - 1 Year Warranty",
+					"display": "14-inch Liquid Retina XDR display"
+				},
+				"specifications": {
+					"processor": "Apple M1 Pro",
+					"ram": "8GB",
+					"storage": "256GB SSD",
+					"display_size": "14 inches",
+					"display_type": "Liquid Retina XDR",
+					"weight": "3.0 pounds",
+					"dimensions": {
+						"height": "0.61 inches",
+						"width": "11.97 inches",
+						"depth": "8.36 inches"
+					},
+					"connectivity": {
+						"wifi": "Wi-Fi 6",
+						"bluetooth": "Bluetooth 5.0"
+					},
+					"battery_life": "Up to 20 hours",
+					"operating_system": "macOS Big Sur"
+				},
+				"additional_information": {
+					"color": "Space Gray",
+					"material": "Aluminum",
+					"warranty": "1 Year Limited Warranty",
+					"features": [
+						"Touch Bar",
+						"Touch ID",
+						"Thunderbolt 3 ports",
+						"Backlit Magic Keyboard"
+					]
+				},
+				"public": {
+					"rating": 5,
+					"reviews": 21671
+				},
+				"availability": {
+					"status": ["In Stock", "Out Of Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			}
+		],
+		"smartphone": [
+			{
+				"id": 200,
+				"title": "Samsung Galaxy S21 Ultra 5G",
+				"brand": "Samsung",
+				"price": 1199.99,
+				"mrp": 1299.99,
+				"discount": 8,
+				"category": "smartphone",
+				"image": "http://localhost:9000/images/products/smartphone/200/sp1.jpeg",
+				"badge": "hot",
+				"label": "bestdeal",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/smartphone/200/sp1.jpeg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/200/sp2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/200/sp3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/200/sp1.jpeg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/200/sp2.jpg"
+					}
+				],
+				"product-details": {
+					"description": "Experience the ultimate in smartphone technology with the Samsung Galaxy S21 Ultra 5G. Packed with a powerful Exynos processor, a stunning Quad HD+ display, and a versatile camera system, this flagship device redefines what a smartphone can do.",
+					"display": "6.8-inch Dynamic AMOLED 2X"
+				},
+				"specifications": {
+					"processor": "Exynos 2100",
+					"ram": "12GB",
+					"storage": "256GB",
+					"display_size": "6.8 inches",
+					"display_type": "Dynamic AMOLED 2X",
+					"weight": "8.1 ounces",
+					"dimensions": {
+						"height": "6.50 inches",
+						"width": "2.98 inches",
+						"depth": "0.35 inches"
+					},
+					"connectivity": {
+						"wifi": "Wi-Fi 6E",
+						"bluetooth": "Bluetooth 5.2"
+					},
+					"battery_life": "Up to 18 hours (typical)",
+					"operating_system": "Android 11 with One UI 3.1"
+				},
+				"additional_information": {
+					"color": "Phantom Black",
+					"material": "Gorilla Glass Victus, Aluminum frame",
+					"warranty": "2 Year Limited Warranty",
+					"features": [
+						"108MP Quad Camera",
+						"S Pen support",
+						"Water and dust resistance (IP68)"
+					]
+				},
+				"public": {
+					"rating": 2.6,
+					"reviews": 18923
+				},
+				"availability": {
+					"status": ["In Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			},
+			{
+				"id": 201,
+				"title": "iPhone 9",
+				"brand": "Apple",
+				"price": 549.99,
+				"mrp": 659.99,
+				"discount": 12,
+				"category": "smartphone",
+				"image": "http://localhost:9000/images/products/smartphone/201/sp1.jpg",
+				"badge": "hot",
+				"label": "bestdeal",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/smartphone/201/sp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/201/sp2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/201/sp3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/201/sp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/201/sp2.jpg"
+					}
+				],
+				"product-details": {
+					"description": "An apple mobile which is nothing like apple",
+					"display": "6.8-inch Dynamic AMOLED 2X"
+				},
+				"specifications": {
+					"processor": "Exynos 2100",
+					"ram": "12GB",
+					"storage": "256GB",
+					"display_size": "6.8 inches",
+					"display_type": "Dynamic AMOLED 2X",
+					"weight": "8.1 ounces",
+					"dimensions": {
+						"height": "6.50 inches",
+						"width": "2.98 inches",
+						"depth": "0.35 inches"
+					},
+					"connectivity": {
+						"wifi": "Wi-Fi 6E",
+						"bluetooth": "Bluetooth 5.2"
+					},
+					"battery_life": "Up to 18 hours (typical)",
+					"operating_system": "Android 11 with One UI 3.1"
+				},
+				"additional_information": {
+					"color": "Phantom Black",
+					"material": "Gorilla Glass Victus, Aluminum frame",
+					"warranty": "2 Year Limited Warranty",
+					"features": [
+						"108MP Quad Camera",
+						"S Pen support",
+						"Water and dust resistance (IP68)"
+					]
+				},
+				"public": {
+					"rating": 2.6,
+					"reviews": 18923
+				},
+				"availability": {
+					"status": ["In Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			},
+			{
+				"id": 202,
+				"title": "iPhone X",
+				"brand": "Apple",
+				"price": 899,
+				"mrp": 1000,
+				"discount": 15,
+				"category": "smartphone",
+				"image": "http://localhost:9000/images/products/smartphone/202/sp1.jpg",
+				"badge": "hot",
+				"label": "bestdeal",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/smartphone/202/sp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/202/sp2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/202/sp3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/202/sp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/202/sp2.jpg"
+					}
+				],
+				"product-details": {
+					"description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+					"display": "6.8-inch Dynamic AMOLED 2X"
+				},
+				"specifications": {
+					"processor": "Exynos 2100",
+					"ram": "12GB",
+					"storage": "256GB",
+					"display_size": "6.8 inches",
+					"display_type": "Dynamic AMOLED 2X",
+					"weight": "8.1 ounces",
+					"dimensions": {
+						"height": "6.50 inches",
+						"width": "2.98 inches",
+						"depth": "0.35 inches"
+					},
+					"connectivity": {
+						"wifi": "Wi-Fi 6E",
+						"bluetooth": "Bluetooth 5.2"
+					},
+					"battery_life": "Up to 18 hours (typical)",
+					"operating_system": "Android 11 with One UI 3.1"
+				},
+				"additional_information": {
+					"color": "Phantom Black",
+					"material": "Gorilla Glass Victus, Aluminum frame",
+					"warranty": "2 Year Limited Warranty",
+					"features": [
+						"108MP Quad Camera",
+						"S Pen support",
+						"Water and dust resistance (IP68)"
+					]
+				},
+				"public": {
+					"rating": 2.6,
+					"reviews": 18923
+				},
+				"availability": {
+					"status": ["In Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			},
+			{
+				"id": 203,
+				"title": "Samsung Universe 9",
+				"brand": "Samsung",
+				"price": 1249.99,
+				"mrp": 1299.99,
+				"discount": 8,
+				"category": "smartphone",
+				"image": "http://localhost:9000/images/products/smartphone/203/sp1.jpg",
+				"badge": "hot",
+				"label": "bestdeal",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/smartphone/203/sp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/203/sp2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/203/sp3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/203/sp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/smartphone/203/sp2.jpg"
+					}
+				],
+				"product-details": {
+					"description": "Samsung's new variant which goes beyond Galaxy to the Universe.",
+					"display": "6.8-inch Dynamic AMOLED 2X"
+				},
+				"specifications": {
+					"processor": "Exynos 2100",
+					"ram": "12GB",
+					"storage": "256GB",
+					"display_size": "6.8 inches",
+					"display_type": "Dynamic AMOLED 2X",
+					"weight": "8.1 ounces",
+					"dimensions": {
+						"height": "6.50 inches",
+						"width": "2.98 inches",
+						"depth": "0.35 inches"
+					},
+					"connectivity": {
+						"wifi": "Wi-Fi 6E",
+						"bluetooth": "Bluetooth 5.2"
+					},
+					"battery_life": "Up to 18 hours (typical)",
+					"operating_system": "Android 11 with One UI 3.1"
+				},
+				"additional_information": {
+					"color": "Phantom Black",
+					"material": "Gorilla Glass Victus, Aluminum frame",
+					"warranty": "2 Year Limited Warranty",
+					"features": [
+						"108MP Quad Camera",
+						"S Pen support",
+						"Water and dust resistance (IP68)"
+					]
+				},
+				"public": {
+					"rating": 2.6,
+					"reviews": 18923
+				},
+				"availability": {
+					"status": ["In Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			}
+		],
+		"headphones": [
+			{
+				"id": 300,
+				"title": "Sony WH-1000XM4 Wireless Noise-Canceling Headphones",
+				"brand": "Sony",
+				"price": 349.99,
+				"discount": 13,
+				"category": "headphone",
+				"image": "http://localhost:9000/images/products/headphone/300/hp1.jpg",
+				"badge": "hot",
+				"label": "bestdeal",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/headphone/300/hp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/300/hp2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/300/hp3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/300/hp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/300/hp2.jpg"
+					}
+				],
+				"product-details": {
+					"description": "Immerse yourself in high-quality sound with the Sony WH-1000XM4 headphones. These wireless, noise-canceling headphones provide an unparalleled listening experience, adaptive to your surroundings for a truly personalized audio experience.",
+					"driver": "40mm Liquid Crystal Polymer drivers",
+					"noise_cancellation": true
+				},
+				"specifications": {
+					"wireless_technology": "Bluetooth 5.0",
+					"battery_life": "Up to 30 hours (with noise cancellation)",
+					"charging_time": "Approximately 3 hours",
+					"weight": "8.96 ounces",
+					"color": "Black",
+					"foldable_design": true
+				},
+				"additional_information": {
+					"material": "Plastic, Leather",
+					"warranty": "1 Year Limited Warranty",
+					"features": [
+						"Touch Sensor Controls",
+						"Speak-to-Chat technology",
+						"Multipoint connectivity"
+					]
+				},
+				"public": {
+					"rating": 4.8,
+					"reviews": 15487
+				},
+				"delivery": [
+					"Free Shipping",
+					"Express Shipping (Additional charges apply)"
+				]
+			},
+			{
+				"id": 301,
+				"title": "Bose QuietComfort 35 II Wireless Headphones",
+				"brand": "Bose",
+				"price": 299.99,
+				"discount": 15,
+				"category": "headphone",
+				"image": "http://localhost:9000/images/products/headphone/301/hp1.jpg",
+				"badge": "",
+				"label": "special",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/headphone/301/hp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/301/hp2.png"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/301/hp3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/301/hp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/301/hp2.jpg"
+					}
+				],
+				"product-details": {
+					"description": "Experience world-class noise cancellation with the Bose QuietComfort 35 II headphones. These wireless headphones feature premium sound quality, comfortable design, and hassle-free voice control.",
+					"driver": "Not specified",
+					"noise_cancellation": true
+				},
+				"specifications": {
+					"wireless_technology": "Bluetooth 4.2",
+					"battery_life": "Up to 20 hours",
+					"charging_time": "2.5 hours",
+					"weight": "8.3 ounces",
+					"color": "Silver",
+					"foldable_design": true
+				},
+				"additional_information": {
+					"material": "Alcantara, Synthetic Protein Leather",
+					"warranty": "2 Year Limited Warranty",
+					"features": [
+						"Voice Assistant Integration",
+						"Volume-optimized EQ",
+						"Action button for custom control"
+					]
+				},
+				"public": {
+					"rating": 4.6,
+					"reviews": 12003
+				},
+				"delivery": ["Free Shipping", "Standard Shipping"]
+			},
+			{
+				"id": 302,
+				"title": "Sennheiser HD 660 S Open-Back Headphones",
+				"brand": "Sennheiser",
+				"price": 499.95,
+				"discount": 10,
+				"category": "headphone",
+				"image": "http://localhost:9000/images/products/headphone/302/hp1.jpg",
+				"badge": "sale",
+				"label": "premium",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/headphone/302/hp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/302/hp2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/302/hp3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/302/hp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/302/hp2.jpg"
+					}
+				],
+				"product-details": {
+					"description": "Indulge in audiophile-grade sound with the Sennheiser HD 660 S headphones. These open-back headphones offer a natural and spatial listening experience, perfect for discerning music enthusiasts.",
+					"driver": "Not specified",
+					"noise_cancellation": false
+				},
+				"specifications": {
+					"wireless_technology": "Wired (3.5mm connector)",
+					"cable_length": "9.8 feet",
+					"weight": "9.2 ounces",
+					"color": "Matte Black",
+					"foldable_design": false
+				},
+				"additional_information": {
+					"material": "Metal, Velour",
+					"warranty": "3 Year Limited Warranty",
+					"features": [
+						"Open-back design",
+						"Detachable cable",
+						"High impedance for detailed audio"
+					]
+				},
+				"public": {
+					"rating": 4.9,
+					"reviews": 7896
+				},
+				"delivery": [
+					"Free Shipping",
+					"Express Shipping (Additional charges apply)"
+				]
+			},
+			{
+				"id": 303,
+				"title": "JBL Tune 750BTNC Wireless Over-Ear Headphones",
+				"brand": "JBL",
+				"price": 79.95,
+				"discount": 20,
+				"category": "headphone",
+				"image": "http://localhost:9000/images/products/headphone/303/hp1.jpg",
+				"badge": "bestseller",
+				"label": "budget",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/headphone/303/hp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/303/hp2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/303/hp3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/303/hp1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/headphone/303/hp2.jpg"
+					}
+				],
+				"product-details": {
+					"description": "Enjoy powerful and immersive sound on a budget with the JBL Tune 750BTNC headphones. These wireless over-ear headphones feature active noise cancellation and a foldable design for portability.",
+					"driver": "Not specified",
+					"noise_cancellation": true
+				},
+				"specifications": {
+					"wireless_technology": "Bluetooth 4.2",
+					"battery_life": "Up to 15 hours (with noise cancellation)",
+					"charging_time": "2 hours",
+					"weight": "7.8 ounces",
+					"color": "Blue",
+					"foldable_design": true
+				},
+				"additional_information": {
+					"material": "Plastic, Fabric",
+					"warranty": "1 Year Limited Warranty",
+					"features": [
+						"Hands-free calling",
+						"Multi-point connection",
+						"Comfort-fit fabric headband"
+					]
+				},
+				"public": {
+					"rating": 4.5,
+					"reviews": 9562
+				},
+				"delivery": ["Free Shipping", "Standard Shipping"]
+			}
+		],
+		"gamingconsole": [
+			{
+				"id": 400,
+				"title": "PlayStation 5",
+				"brand": "Sony",
+				"price": 499.99,
+				"mrp": 549.99,
+				"discount": 9,
+				"category": "gamingconsole",
+				"image": "http://localhost:9000/images/products/gamingconsole/400/gc1.jpg",
+				"badge": "hot",
+				"label": "featured",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/400/gc1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/400/gc2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/400/gc3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/400/gc1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/400/gc2.jpg"
+					}
+				],
+				"product-details": {
+					"description": "Experience gaming like never before with the PlayStation 5. This next-generation gaming console delivers stunning graphics, lightning-fast load times, and innovative features that redefine the gaming experience. Immerse yourself in a world of incredible gaming adventures.",
+					"processor": "Custom AMD Ryzen Zen 2 Octa-core",
+					"graphics": "Custom RDNA 2 GPU",
+					"storage_capacity": "825GB SSD"
+				},
+				"specifications": {
+					"max_resolution": "8K",
+					"frame_rate": "Up to 120fps",
+					"ray_tracing": true,
+					"disc_drive": "Ultra HD Blu-ray",
+					"dimensions": {
+						"height": "15.4 inches",
+						"width": "4.1 inches",
+						"depth": "10.2 inches"
+					},
+					"weight": "9.92 pounds",
+					"color": "Jet Black"
+				},
+				"additional_information": {
+					"material": "Plastic, Metal",
+					"warranty": "1 Year Limited Warranty",
+					"features": [
+						"Backward compatibility",
+						"Haptic feedback",
+						"Adaptive triggers"
+					]
+				},
+				"public": {
+					"rating": 4.5,
+					"reviews": 19856
+				},
+				"availability": {
+					"status": ["In Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			},
+			{
+				"id": 401,
+				"title": "Xbox Series X",
+				"brand": "Microsoft",
+				"price": 499.99,
+				"mrp": 549.99,
+				"discount": 9,
+				"category": "gamingconsole",
+				"image": "http://localhost:9000/images/products/gamingconsole/401/gc1.jpg",
+				"badge": "hot",
+				"label": "featured",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/401/gc1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/401/gc2.png"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/401/gc3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/401/gc1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/401/gc2.png"
+					}
+				],
+				"product-details": {
+					"description": "Unleash the power of gaming with the Xbox Series X. This cutting-edge gaming console from Microsoft delivers superior performance, quick load times, and a vast library of games. Immerse yourself in the ultimate gaming experience.",
+					"processor": "Custom AMD Zen 2 Octa-core",
+					"graphics": "Custom RDNA 2 GPU",
+					"storage_capacity": "1TB SSD"
+				},
+				"specifications": {
+					"max_resolution": "4K",
+					"frame_rate": "Up to 120fps",
+					"ray_tracing": true,
+					"disc_drive": "4K UHD Blu-ray",
+					"dimensions": {
+						"height": "11.9 inches",
+						"width": "5.9 inches",
+						"depth": "5.9 inches"
+					},
+					"weight": "9.8 pounds",
+					"color": "Black"
+				},
+				"additional_information": {
+					"material": "Plastic, Metal",
+					"warranty": "1 Year Limited Warranty",
+					"features": [
+						"Quick Resume",
+						"Smart Delivery",
+						"Backward compatibility"
+					]
+				},
+				"public": {
+					"rating": 4.7,
+					"reviews": 16742
+				},
+				"availability": {
+					"status": ["In Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			},
+			{
+				"id": 402,
+				"title": "Nintendo Switch OLED Model",
+				"brand": "Nintendo",
+				"price": 349.99,
+				"mrp": 399.99,
+				"discount": 13,
+				"category": "gamingconsole",
+				"image": "http://localhost:9000/images/products/gamingconsole/402/gc1.jpg",
+				"badge": "",
+				"label": "special",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/402/gc1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/402/gc2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/402/gc3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/402/gc1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/402/gc2.jpg"
+					}
+				],
+				"product-details": {
+					"description": "Enjoy a more immersive gaming experience with the Nintendo Switch OLED Model. Featuring a vibrant 7-inch OLED screen, this gaming console offers stunning visuals and the flexibility to play in handheld, tabletop, or TV mode.",
+					"processor": "Custom NVIDIA Tegra",
+					"graphics": "NVIDIA GeForce",
+					"storage_capacity": "64GB internal storage (expandable)"
+				},
+				"specifications": {
+					"max_resolution": "720p (handheld) / 1080p (TV mode)",
+					"frame_rate": "Up to 60fps",
+					"dimensions": {
+						"height": "4 inches",
+						"width": "9.5 inches",
+						"depth": "0.6 inches"
+					},
+					"weight": "0.93 pounds",
+					"color": "White"
+				},
+				"additional_information": {
+					"material": "Plastic",
+					"warranty": "1 Year Limited Warranty",
+					"features": ["7-inch OLED screen", "Kickstand", "Enhanced audio"]
+				},
+				"public": {
+					"rating": 4.6,
+					"reviews": 8756
+				},
+				"availability": {
+					"status": ["In Stock"],
+					"delivery": ["Free Shipping", "Standard Shipping"]
+				}
+			},
+			{
+				"id": 403,
+				"title": "Alienware Aurora R12 Gaming Desktop",
+				"brand": "Dell",
+				"price": 1499.99,
+				"mrp": 1699.99,
+				"discount": 12,
+				"category": "gamingconsole",
+				"image": "http://localhost:9000/images/products/gamingconsole/403/gc1.jpg",
+				"badge": "sale",
+				"label": "premium",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/403/gc1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/403/gc2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/403/gc3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/403/gc1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/gamingconsole/403/gc2.jpg"
+					}
+				],
+				"product-details": {
+					"description": "Elevate your gaming experience with the Alienware Aurora R12 Gaming Desktop. Powered by the latest Intel processors and NVIDIA graphics, this desktop offers high-performance gaming and a customizable RGB lighting system.",
+					"processor": "Intel Core i7 11th Gen",
+					"graphics": "NVIDIA GeForce RTX 3060",
+					"storage_capacity": "1TB NVMe SSD + 1TB HDD"
+				},
+				"specifications": {
+					"max_resolution": "4K",
+					"frame_rate": "Varies by game",
+					"dimensions": {
+						"height": "18.9 inches",
+						"width": "8.77 inches",
+						"depth": "17 inches"
+					},
+					"weight": "39.2 pounds",
+					"color": "Dark Side of the Moon"
+				},
+				"additional_information": {
+					"material": "Metal, Plastic",
+					"warranty": "1 Year Limited Warranty",
+					"features": [
+						"Customizable RGB lighting",
+						"Liquid cooling",
+						"Tool-less upgrade"
+					]
+				},
+				"public": {
+					"rating": 4.8,
+					"reviews": 6543
+				},
+				"availability": {
+					"status": ["In Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			}
+		],
+		"monitors": [
+			{
+				"id": 500,
+				"title": "LG OLED C1 Series 65-Inch 4K Smart OLED TV",
+				"brand": "LG",
+				"price": 1999.99,
+				"mrp": 2199.99,
+				"discount": 9,
+				"category": "monitor",
+				"image": "http://localhost:9000/images/products/monitor/500/m1.jpg",
+				"badge": "hot",
+				"label": "bestdeal",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/monitor/500/m1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/500/m2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/500/m3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/500/m1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/500/m2.jpg"
+					}
+				],
+				"product-details": {
+					"description": "Immerse yourself in the ultimate cinematic experience with the LG OLED C1 Series 65-Inch 4K Smart OLED TV. Featuring OLED technology, this TV delivers perfect blacks, vibrant colors, and incredible contrast. With smart functionality, it's not just a TV; it's a hub for entertainment.",
+					"display_size": "65 inches",
+					"display_type": "OLED",
+					"resolution": "4K Ultra HD"
+				},
+				"specifications": {
+					"refresh_rate": "120Hz",
+					"hdr_support": true,
+					"smart_platform": "webOS",
+					"audio": "Dolby Atmos",
+					"connectivity": {
+						"hdmi_ports": 4,
+						"usb_ports": 3
+					},
+					"dimensions": {
+						"height": "32.7 inches",
+						"width": "57 inches",
+						"depth": "1.8 inches"
+					},
+					"weight": "55.6 pounds",
+					"color": "Dark Silver"
+				},
+				"additional_information": {
+					"material": "Metal, Plastic",
+					"warranty": "2 Year Limited Warranty",
+					"features": ["ThinQ AI", "Magic Remote", "Gallery Mode"]
+				},
+				"public": {
+					"rating": 3.3,
+					"reviews": 13542
+				},
+				"availability": {
+					"status": ["In Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			},
+			{
+				"id": 501,
+				"title": "Dell S2721DGF 27-Inch QHD Gaming Monitor",
+				"brand": "Dell",
+				"price": 449.99,
+				"mrp": 499.99,
+				"discount": 10,
+				"category": "monitor",
+				"image": "http://localhost:9000/images/products/monitor/501/m1.jpg",
+				"badge": "",
+				"label": "special",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/monitor/501/m1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/501/m2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/501/m3.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/501/m1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/501/m2.jpg"
+					}
+				],
+				"product-details": {
+					"description": "Elevate your gaming experience with the Dell S2721DGF 27-Inch QHD Gaming Monitor. With a high refresh rate and QHD resolution, this monitor delivers smooth and sharp visuals. Immerse yourself in the world of gaming with fast response times and vibrant colors.",
+					"display_size": "27 inches",
+					"display_type": "IPS",
+					"resolution": "QHD (2560 x 1440)"
+				},
+				"specifications": {
+					"refresh_rate": "120Hz",
+					"hdr_support": true,
+					"smart_platform": "webOS",
+					"audio": "Dolby Atmos",
+					"connectivity": {
+						"hdmi_ports": 4,
+						"usb_ports": 3
+					},
+					"dimensions": {
+						"height": "32.7 inches",
+						"width": "57 inches",
+						"depth": "1.8 inches"
+					},
+					"weight": "55.6 pounds",
+					"color": "Dark Silver"
+				},
+				"additional_information": {
+					"material": "Metal, Plastic",
+					"warranty": "2 Year Limited Warranty",
+					"features": ["ThinQ AI", "Magic Remote", "Gallery Mode"]
+				},
+				"public": {
+					"rating": 3.3,
+					"reviews": 13542
+				},
+				"availability": {
+					"status": ["In Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			},
+			{
+				"id": 502,
+				"title": "ASUS ROG Swift PG279QZ 27-Inch WQHD Gaming Monitor",
+				"brand": "ASUS",
+				"price": 699.99,
+				"mrp": 749.99,
+				"discount": 7,
+				"category": "monitor",
+				"image": "http://localhost:9000/images/products/monitor/502/m1.jpg",
+				"badge": "sale",
+				"label": "premium",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/monitor/502/m1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/502/m2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/502/m3.png"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/502/m1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/502/m2.jpg"
+					}
+				],
+				"product-details": {
+					"description": "Dominate the gaming battlefield with the ASUS ROG Swift PG279QZ 27-Inch WQHD Gaming Monitor. Featuring a high refresh rate and NVIDIA G-Sync technology, this monitor ensures smooth and tear-free gaming. Immerse yourself in stunning visuals and responsive gameplay.",
+					"display_size": "27 inches",
+					"display_type": "IPS",
+					"resolution": "WQHD (2560 x 1440)"
+				},
+				"specifications": {
+					"refresh_rate": "120Hz",
+					"hdr_support": true,
+					"smart_platform": "webOS",
+					"audio": "Dolby Atmos",
+					"connectivity": {
+						"hdmi_ports": 4,
+						"usb_ports": 3
+					},
+					"dimensions": {
+						"height": "32.7 inches",
+						"width": "57 inches",
+						"depth": "1.8 inches"
+					},
+					"weight": "55.6 pounds",
+					"color": "Dark Silver"
+				},
+				"additional_information": {
+					"material": "Metal, Plastic",
+					"warranty": "2 Year Limited Warranty",
+					"features": ["ThinQ AI", "Magic Remote", "Gallery Mode"]
+				},
+				"public": {
+					"rating": 3.3,
+					"reviews": 13542
+				},
+				"availability": {
+					"status": ["In Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			},
+			{
+				"id": 503,
+				"title": "Acer R240HY bidx 23.8-Inch Full HD IPS Monitor",
+				"brand": "Acer",
+				"price": 149.99,
+				"mrp": 169.99,
+				"discount": 12,
+				"category": "monitor",
+				"image": "http://localhost:9000/images/products/monitor/503/m1.jpg",
+				"badge": "hot",
+				"label": "bestdeal",
+				"imageList": [
+					{
+						"src": "http://localhost:9000/images/products/monitor/503/m1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/503/m2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/503/m1.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/503/m2.jpg"
+					},
+					{
+						"src": "http://localhost:9000/images/products/monitor/503/m5.jpg"
+					}
+				],
+				"product-details": {
+					"description": "Enjoy crisp and clear visuals with the Acer R240HY bidx 23.8-Inch Full HD IPS Monitor. With an ultra-thin design and wide viewing angles, this monitor is perfect for work and entertainment. Immerse yourself in Full HD resolution and vibrant colors.",
+					"display_size": "23.8 inches",
+					"display_type": "IPS",
+					"resolution": "Full HD (1920 x 1080)"
+				},
+				"specifications": {
+					"refresh_rate": "120Hz",
+					"hdr_support": true,
+					"smart_platform": "webOS",
+					"audio": "Dolby Atmos",
+					"connectivity": {
+						"hdmi_ports": 4,
+						"usb_ports": 3
+					},
+					"dimensions": {
+						"height": "32.7 inches",
+						"width": "57 inches",
+						"depth": "1.8 inches"
+					},
+					"weight": "55.6 pounds",
+					"color": "Dark Silver"
+				},
+				"additional_information": {
+					"material": "Metal, Plastic",
+					"warranty": "2 Year Limited Warranty",
+					"features": ["ThinQ AI", "Magic Remote", "Gallery Mode"]
+				},
+				"public": {
+					"rating": 3.3,
+					"reviews": 13542
+				},
+				"availability": {
+					"status": ["In Stock"],
+					"delivery": [
+						"Free Shipping",
+						"Express Shipping (Additional charges apply)"
+					]
+				}
+			}
+		]
+	}
+}

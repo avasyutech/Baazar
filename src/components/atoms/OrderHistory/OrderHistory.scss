@@ -1,0 +1,97 @@
+@use '../../../sass/base.scss' as *;
+
+.ord-history {
+    border-radius: 4px;
+    border:1px solid $gray-100;
+    height: fit-content;
+    
+    &__ord-title {
+        padding:16px 24px;
+        display: inline-block;
+        color:$gray-900;
+        text-transform: uppercase;
+    }
+
+    &__ord-head {
+        padding:16px 24px;
+        background-color: $gray-50;
+        text-transform: uppercase;
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 24px;
+        color:$gray-700;
+    }
+
+    &__ord-table {
+        padding:12px 0 24px 0;
+
+        &__ord-list {
+            padding:12px 24px;
+            display: grid;
+            grid-auto-flow: column;
+            grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+            column-gap: 24px;
+        }
+
+        &__ord-cards {
+            margin: 20px 40px 30px 40px;
+        }
+    }
+
+    &__ord-id {
+        color:$gray-900;
+    }
+
+    &__ord-status {
+        color:$green-500;  
+        text-transform: uppercase; 
+    }
+
+    &__ord-date {
+        color:$gray-500;
+    }
+
+    &__ord-total {
+        color:$gray-700;
+    }
+
+    &__ord-action {
+        color:$blue-500;
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+    
+    .no-checkout-cmp {
+        display: inline-block;
+        width: 100%;
+        text-transform: capitalize;
+        color: #77878F;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .ord-history__ord-head {
+        grid-template-columns: repeat(3,1fr);
+
+        .resp-hide {
+            display: none;
+        }
+    }
+
+    .ord-history__ord-table__ord-list {
+        grid-auto-flow: unset;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        column-gap: 14px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ord-history__ord-total {
+        grid-column: 1/3;
+    }
+}

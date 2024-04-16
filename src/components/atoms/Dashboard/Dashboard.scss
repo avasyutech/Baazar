@@ -1,0 +1,40 @@
+@use '../../../sass/base.scss' as *;
+
+.dashboard {
+    padding: 16px 10px;
+    gap: 6px;
+    background-color: $white;
+    border-radius: 4px;
+    border:1px solid $gray-100;
+    display: flex;
+
+    &__db-type {
+        display: flex;
+        column-gap: 12px;
+        padding:10px 24px;
+        fill-opacity: 0.8;
+        cursor:pointer;
+        color:$gray-600;
+
+        &__db-icon {
+            font-size: 20px;    
+        }
+
+        &__db-text {
+            text-transform: capitalize;
+        }
+
+        &:hover, &:focus {
+            background-color: $orange-500;
+            color:$white;
+            fill-opacity: 1;
+        }
+    }
+}
+
+@media (max-width:1200px) {
+    .dashboard {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    }
+}

@@ -1,0 +1,135 @@
+@use "../../../sass/base.scss" as *;
+
+.filter {
+
+  &__close-btn {
+    display: none;
+    position: sticky;
+    top: 0;
+    color: red;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin-bottom: 16px;
+    background-color: #fff;
+
+    span:nth-child(1) {
+      color: #191C1F;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      border-top: 2px solid #E4E7E9;
+      padding-bottom: 15px;
+      background-color: $white;
+    }
+  }
+
+  &__flt-type {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid $gray-100;
+
+    &__category {
+      color: $gray-900;
+      margin-bottom: 16px;
+    }
+
+    &__flt-value {
+      display: flex;
+      margin-bottom: 12px;
+    }
+
+    &__price-value {
+      display: flex;
+      gap: 12px;
+
+      span {
+        border: 1px solid $gray-100;
+        border-radius: 3px;
+        display: flex;
+        flex-grow: 1;
+        padding: 8px 12px;
+        align-items: center;
+      }
+    }
+
+    &__flt-brand-value {
+      display: flex;
+      margin-bottom: 12px;
+      width: 45%;
+    }
+
+    &:nth-last-child(1) {
+      border-bottom: 1px solid transparent;
+    }
+  }
+
+  &__flt-input {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    accent-color: $orange-400;
+  }
+
+  &__flt-label {
+    color: $gray-700;
+    margin-left: 8px;
+  }
+
+  &__brand {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__result-blk {
+    position: fixed;
+    width: 280px;
+    bottom: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px 0;
+    margin: 0 auto;
+  }
+
+  .multi-range-slider {
+    border: 1px solid transparent;
+    box-shadow: none;
+    padding: 23px 0;
+
+    & .bar {
+      &-left,
+      &-right {
+        padding: 0;
+        box-shadow: inset 0px 0px 5px $gray-100;
+      }
+      &-inner {
+        border: 2px solid $orange-500;
+      }
+    }
+    & .thumb {
+      &::before {
+        border: 2px solid $orange-500;
+        box-shadow: none;
+        width: 12px;
+        height: 12px;
+        margin: -6px -12px;
+      }
+
+      & .caption {
+        display: none;
+      }
+    }
+    & .labels,
+    & .ruler {
+      display: none;
+    }
+  }
+}

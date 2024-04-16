@@ -1,0 +1,64 @@
+@use '../../../sass/base.scss' as *;
+
+.pdf-wrapper {
+	&__content {
+		border: $box-shadow-3;
+	}
+
+	.logo {
+		justify-content: flex-start;
+	}
+
+	.logo__label {
+		color: $orange-500 !important;
+	}
+
+	&__thead,
+	&__tlist {
+		display: grid;
+		grid-template-columns: 150px 120px 120px 120px;
+		column-gap: 40px;
+		width: 100%;
+		padding: 15px 30px;
+		border-bottom: 1px solid $gray-100;
+		color: $gray-900;
+	}
+
+	&__thead {
+		text-transform: uppercase;
+	}
+
+	&__item-quantity {
+		padding-left: 40px;
+	}
+
+	&__pdf-table {
+		border-bottom: 1px solid $orange-400;
+	}
+
+	&__price-details {
+		display: grid;
+		justify-content: flex-end;
+		margin: 15px 0;
+		color: $gray-900;
+
+		&.sub-total {
+			margin-top: 50px;
+		}
+	}
+
+	&__pdf-total {
+		font-size: 20px;
+		font-weight: 700;
+		background-color: $orange-500;
+		padding: 10px 15px;
+		color: $white;
+		display: inline-flex;
+		justify-content: flex-end;
+		text-transform: uppercase;
+	}
+}
+
+// #pdf-wrapper__content {
+// 	display: none;
+// }

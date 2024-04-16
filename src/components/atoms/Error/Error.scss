@@ -1,0 +1,32 @@
+@use '../../../sass/base.scss' as *;
+
+.error {
+	margin: auto;
+	width: 536px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 50px 0;
+
+	&__er-img {
+		margin-bottom: 50px;
+		width: 220px;
+		height: 250px;
+	}
+
+	&__er-desc {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+
+		&__er-type {
+			margin: 24px 0;
+			text-align: center;
+		}
+
+		&__er-btn {
+			display: flex;
+			column-gap: 16px;
+		}
+	}
+}

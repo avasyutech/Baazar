@@ -1,0 +1,271 @@
+@use "./base.scss" as *;
+
+
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+    font-family: $bazaar-font-family-default;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+input {
+    border: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.hide {
+    visibility: hidden;
+    display: none;
+}
+
+button, svg {
+    cursor: pointer;
+}
+
+h1,.heading-1 {
+    @include fonts($bazaar-font-size-5xl,$bazaar-line-height-7xl);
+    font-style: normal;
+    font-weight: 600;
+}
+
+h2,.heading-2 {
+    @include fonts($bazaar-font-size-4xl,$bazaar-line-height-5xl);
+    font-style: normal;
+    font-weight: 600;
+}
+
+h3,.heading-3 {
+    @include fonts($bazaar-font-size-3xl,$bazaar-line-height-5xl);
+    font-style: normal;
+    font-weight: 600;
+}
+
+h4,.heading-4,.heading-6, h6 {
+    @include fonts($bazaar-font-size-m,$bazaar-line-height-9xl);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.192px;
+}
+
+h5,.heading-5, .heading-7 {
+    @include fonts($bazaar-font-size-s,$bazaar-line-height-8xl);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.168px;
+}
+
+.display-1 {
+    @include fonts($bazaar-font-size-10xl,$bazaar-line-height-11xl);
+    font-style: normal;
+    font-weight: 600;
+}
+
+.display-2 {
+    @include fonts($bazaar-font-size-9xl,$bazaar-line-height-10xl);
+    font-style: normal;
+    font-weight: 600; 
+}
+
+.display-3 {
+    @include fonts($bazaar-font-size-8xl,$bazaar-line-height-9xl);
+    font-style: normal;
+    font-weight: 600;
+}
+
+.display-4 {
+    @include fonts($bazaar-font-size-7xl,$bazaar-line-height-8xl);
+    font-style: normal;
+    font-weight: 600;
+}
+
+.display-5 {
+    @include fonts($bazaar-font-size-6xl,$bazaar-line-height-7xl-1);
+    font-style: normal;
+    font-weight: 600;
+}
+
+.label-1 {
+    @include fonts($bazaar-font-size-l,$bazaar-line-height-3xl-1);
+    font-style: normal;
+    font-weight: 500;
+}
+
+.label-2 {
+    @include fonts($bazaar-font-size-m,$bazaar-line-height-3xl);
+    font-style: normal;
+    font-weight: 500;
+}
+
+.label-3 {
+    @include fonts($bazaar-font-size-s,$bazaar-line-height-xl);
+    font-style: normal;
+    font-weight: 500;
+}
+
+.label-4 {
+    @include fonts($bazaar-font-size-xs,$bazaar-line-height-l);
+    font-style: normal;
+    font-weight: 500;
+}
+
+.label-5 {
+    @include fonts($bazaar-font-size-2xs,$bazaar-line-height-m);
+    font-style: normal;
+    font-weight: 500;
+}
+
+.body-xxl-400 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.body-xl-400 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px
+}
+.body-xl-500 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px
+}
+.body-xl-600 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px
+}
+
+.body-large-400 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.body-large-500 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.body-large-600 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.body-medium-400 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.body-medium-500 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.body-medium-600 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.body-small-400 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.body-small-500 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.body-small-600 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.body-tiny-400 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+.body-tiny-500 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+.body-tiny-600 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.body-xs-400 {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
+.body-xs-500 {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+}
+.body-xs-600 {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px;
+}
+
+.w-90 {
+    width: 90%;
+    margin:0 auto;
+}
+
+.ptb-7 {
+    padding: 70px 0;
+}
+
+.pb-7 {
+    padding-bottom: 70px;
+}
+
+.pt-7 {
+    padding-top: 70px;
+}
+
+.d-flex {
+    display: flex;
+}

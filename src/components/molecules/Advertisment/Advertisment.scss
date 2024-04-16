@@ -1,0 +1,173 @@
+@use "../../../sass/base.scss" as *;
+
+.advertise-container {
+    border-radius: 3px;
+    height: 100%;
+
+    .advertise {
+        height: 100%;
+        display: grid;
+        align-items: center;
+        grid-template-rows: auto auto;
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            &__label {
+                display: inline-block;
+            }
+        }
+
+        &__image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    &.advertise-yellow {
+        background-color: #F3DE6D;
+
+        .advertise {
+
+            &__content {
+                padding: 32px;
+                
+                &__label {
+                    color: #BE4646;
+                    margin-bottom: 8px;
+                }
+
+                &__discount {
+                    color: #191C1F;
+                    margin-bottom: 12px;
+                }
+
+                &__category {
+                    color: #475156;
+                    margin-bottom: 24px;
+
+                    .high-light-color {
+                        color: #475156;
+                    }
+                }
+            }
+        }
+    }
+
+    &.advertise-blue {
+        background-color: #124261;
+        padding: 40px 24px;
+
+        .advertise {
+
+            &__content {
+                
+                &__label {
+                    display: flex;
+                    padding: 6px 12px;
+                    align-items: flex-start;
+                    gap: 10px;
+                    border-radius: 2px;
+                    color: $white;
+                    margin-bottom: 12px;
+                    background: rgba(255, 255, 255, 0.12);
+                }
+
+                &__discount {
+                    color: $white;
+                    margin-bottom: 12px;
+                }
+
+                &__category {
+                    color: $white;
+                    margin-bottom: 24px;
+
+                    .high-light-color {
+                        color: #EBC80C;
+                    }
+                }
+            }
+
+            &__image {
+                display: none;
+            }
+        }
+    }
+}
+
+
+@media (max-width:1240px) {
+    .advertise-container.advertise-yellow {
+        
+
+        .advertise {
+            grid-template-columns: 1fr;
+            
+
+            &__content {
+                width: fit-content;
+                margin: auto;
+                position: relative;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    width: 90%;
+                    height: 90%;
+                    left: 80%;
+                    background-position-y: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-image: url("../../../assets/images/Add-small-right-bg.png");
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    width: 90%;
+                    height: 90%;
+                    right: 80%;
+                    background-position-y: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-image: url("../../../assets/images/Add-small-bg.png");
+                }
+            }
+
+            &__image {
+                display: none;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .advertise-container.advertise-yellow {
+        
+        .advertise {
+
+            &__content {
+
+                &::after {
+                    content: "";
+                    display: none;
+                }
+
+                &::before {
+                    content: "";
+                    display: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+[
+	{
+        "name": "varun",
+        "mobile": "6301655098", 
+        "password": "1234", 
+        "image": "" 
+    },
+	{
+        "name": "vineeth",
+        "mobile": "9963020378", 
+        "password": "1234", 
+        "image": "" 
+    },
+	{ 
+        "name": "kavya",
+        "mobile": "9581381289", 
+        "password": "1234", 
+        "image": "" 
+    }
+]

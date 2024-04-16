@@ -1,0 +1,50 @@
+@use "../../../sass/base.scss" as *;
+
+.viewAll {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 6px;
+  cursor: pointer;
+
+  &__label {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: capitalize;
+  }
+
+  &.viewAll-orange {
+    color: $orange-500;
+
+    &:hover {
+      color: $orange-600;
+      box-shadow: 0px -1.5px 0px 0px $orange-600 inset;
+    }
+  }
+  &.viewAll-blue {
+    color: $blue-500;
+    &:hover {
+      color: $blue-600;
+      box-shadow: 0px -1.5px 0px 0px $blue-600 inset;
+    }
+  }
+  &.viewAll-yellow {
+    color: $yellow-500;
+    &:hover {
+      color: $yellow-600;
+      box-shadow: 0px -1.5px 0px 0px $yellow-600 inset;
+    }
+  }
+  &.viewAll-black {
+    color: $gray-900;
+    &:hover {
+      box-shadow: 0px -1.5px 0px 0px $gray-900 inset;
+    }
+  }
+
+  &__icon {
+    font-size: 14px;
+  }
+}

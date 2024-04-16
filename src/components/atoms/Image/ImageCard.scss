@@ -1,0 +1,30 @@
+@use "../../../sass/base.scss" as *;
+
+.image-card-wrapper {
+    width: 100%;
+    display: flex;
+    padding: 24px 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    border: 1px solid #E4E7E9;
+    background: $white;
+    cursor: pointer;
+
+    .image-card {
+
+        &__img {
+            width: 148px;
+            height: 148px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        &__label {
+            color: #191C1F;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,136 @@
+@use "../../../sass/base.scss" as *;
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: $white;
+    cursor: pointer;
+
+    &__icon {
+      width: 10px;
+      height: 10px;
+      opacity: 0.5;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: $white;
+    top: 100%;
+    margin-top: 12px;
+    z-index: 1;
+    border-radius: 3px;
+    border: 1px solid $gray-100;
+    box-shadow: 0px 8px 40px 0px $box-shadow-3;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $gray-600;
+    padding: 8px 16px;
+
+    &:hover {
+      background: $gray-50;
+      color: $gray-900;
+    }
+
+    &:focus {
+      background: $gray-50;
+    }
+  }
+
+  &.dropdown-category {
+    background-color: $gray-50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+
+    .dropdown__btn {
+      color: $gray-900;
+      gap: 8px;
+      padding: 14px 24px;
+
+      &.active {
+        background-color: $orange-500;
+        color: $white;
+      }
+
+      &:hover {
+        background-color: $orange-500;
+        color: $white;
+      }
+      &:focus {
+        background-color: $orange-500;
+        color: $white;
+      }
+
+      .dropdown__btn__icon {
+        width: 14px;
+        height: 14px;
+        opacity: 1;
+      }
+    }
+
+    .dropdown__content {
+      width: 240px;
+      left: 0;
+      padding: 12px 0;
+      top: 100%;
+      margin-top: 12px;
+    }
+  }
+
+  &.dropdown-sort {
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    border: 1px solid $gray-100;
+    background: $white;
+    cursor: pointer;
+
+    .dropdown__btn {
+      color: $gray-900;
+      padding: 12px 16px;
+
+      &.active {
+        background-color: $gray-50;
+        color: $gray-900;
+      }
+
+      &:hover {
+        background: $gray-50;
+        color: $gray-900;
+      }
+
+      &:focus {
+        background: $gray-50;
+      }
+
+      .dropdown__btn__icon {
+        opacity: 2;
+      }
+    }
+
+    .dropdown__content {
+      width: 240px;
+      right: 0;
+      top: 100%;
+      margin-top: 12px;
+    }
+  }
+}

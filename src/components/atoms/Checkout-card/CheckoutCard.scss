@@ -1,0 +1,120 @@
+@use "../../../sass/base.scss" as *;
+
+.checkout-main-wrapper {
+    display: grid;
+    grid-template-columns: 5fr 6.5fr;
+    align-items: center;
+    gap: 24px;
+}
+
+.checkout {
+
+    &__product-blk {
+        display: grid;
+        grid-template-columns: 24px 72px auto;
+        align-items: center;
+        gap: 12px;
+    }
+    &__close-icon {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        img {
+            height: 24px;
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+
+    &__product-img {
+        width: 72px;
+        height: 72px;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    &__product-title {
+        color: #191C1F;
+        display: -webkit-box; 
+        -webkit-box-orient: vertical; 
+        -webkit-line-clamp: 2; 
+        overflow: hidden; 
+        text-overflow: ellipsis;
+        cursor: default;
+    }
+
+    &__other-items {
+        display: grid;
+        grid-template-columns: 3fr 7fr 3fr;
+        align-items: center;
+        gap: 24px;
+    }
+
+    &__price-blk {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+
+        .price-blk-label {
+            color: $black;
+            text-transform: uppercase;
+            display: none;
+        }
+
+        &__price {
+            color: #475156;
+        }
+    }
+
+    &__quantity-blk {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+
+        .quantity-blk-label {
+            color: $black;
+            text-transform: uppercase;
+            display: none;
+        }
+    }
+
+    &__quantity-opts {
+        display: flex;
+        width: 148px;
+        padding: 12px 20px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 3px;
+        border: 1px solid #E4E7E9;
+        background: $white;
+
+        .checkout-minus,.checkout-plus {
+            width: 16px;
+            height: 16px;
+            object-fit: contain;
+            object-position: center;
+            cursor: pointer;
+        }
+
+        .checkout-quantity {
+            color: #475156;
+        }
+    }
+
+    &__subTotal-blk {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+
+        .subTotal-blk-label {
+            color: $black;
+            text-transform: uppercase;
+            display: none;
+        }
+
+        .checkout-subTotal {
+            color: #191C1F;
+        }
+    }
+}

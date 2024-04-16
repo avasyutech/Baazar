@@ -1,0 +1,94 @@
+@use "../../../sass/base.scss" as *;
+
+.checkmark {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 4;
+    stroke-linecap:"round";
+    stroke-linejoin:"round";
+    stroke: #2DB324;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px #2DB324;
+    animation: fill 0.4s ease-in-out 0.4s forwards,
+        scale 0.3s ease-in-out 0.9s both;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    margin: 0 auto;
+}
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-linecap:"round";
+    stroke-linejoin:"round";
+    stroke-miterlimit: 10;
+    stroke: #2DB324;
+    fill: #d5f0d3;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-width: 4;
+    stroke-linecap:"round";
+    stroke-linejoin:"round";
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes scale {
+    0%,
+    100% {
+        transform: none;
+    }
+
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #2DB324;
+    }
+}
+
+
+.success-main-container {
+    padding: 124px 0;
+}
+
+.success-wrapper {
+    max-width: 600px;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    text-align: center;
+
+    .success-animation-icon {
+        margin-bottom: 24px;
+    }
+
+    .success {
+
+        &__title-msg {
+            color: #191C1F;
+            margin-bottom: 12px;
+        }
+
+        &__desc {
+            color: #5F6C72;
+            margin-bottom: 32px;
+        }
+    }
+}

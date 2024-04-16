@@ -1,0 +1,23 @@
+@use "../../../sass/base.scss" as *;
+
+.heading-section {
+
+    &__top-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__heading-blk {
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+    
+        &__label {
+            width: fit-content;
+            margin-right: 24px;
+            color: #191C1F;
+        }
+
+    }
+}

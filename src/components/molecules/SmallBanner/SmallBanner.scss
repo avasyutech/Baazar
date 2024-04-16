@@ -1,0 +1,76 @@
+@use "../../../sass/base.scss" as *;
+
+.smBanner {
+    padding: 44px;
+    border-radius: 4px;
+
+    .smBanner-blk {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+
+        &__content {
+
+            &__title {
+                margin: 8px 0 12px 0;
+            }
+
+            &__desc {
+                margin-bottom: 20px;
+            }
+        }
+
+        &__image {
+            height: 100%;
+
+            img {
+                height: 100%;
+                object-fit: cover;
+                object-fit: center;
+            }
+        }
+    }
+
+    &.black {
+        background-color: #191C1F;
+
+        .smBanner-blk {
+
+            &__content {
+
+                &__title {
+                    color: $white;
+                }
+
+                &__desc {
+                    color: #ADB7BC;
+                }
+            }
+        }
+    }
+
+    &.white {
+        background-color: #F2F4F5;
+
+        .smBanner {
+
+            &__content {
+
+                &__title {
+                    color: #191C1F;
+                }
+                    
+                &__desc {
+                    color: #475156;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .smBanner {
+        padding: 30px;
+    }
+}

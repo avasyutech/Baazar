@@ -1,0 +1,16 @@
+@use "../../../sass/base.scss" as *;
+
+.profile {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 40px 0 72px 0;
+    gap: 30px;
+
+    .main-checkout-wrapper {
+        padding: 0;
+    }
+
+    .chk-out-grid {
+        width: 100%;
+    }
+}

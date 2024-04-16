@@ -1,0 +1,110 @@
+@use "../../sass/base.scss" as *;
+
+.best-deals-container {
+
+    .best-deals {
+
+        &__top-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__heading-blk {
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
+
+            &__label {
+                width: fit-content;
+                margin-right: 24px;
+                color: #191C1F;
+                text-transform: capitalize;
+            }
+
+            &__deal-ends-blk {
+                display: flex;
+                align-items: center;
+
+                .deal-end-label {
+                    margin-right: 12px;
+                    color: $black;
+                }
+            }
+        }
+    }
+}
+
+.category-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+
+    &__heading {
+        color: #191C1F;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    &__category-list {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        gap: 16px;
+    }
+}
+
+
+.features-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    gap: 24px;
+
+    .featured-items-container {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+.new-products-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+
+
+
+
+@media (max-width:1240px) {
+    
+    .features-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:768px) {
+
+    .best-deals-container .best-deals__heading-blk  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .new-products-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:500px) {
+    .best-deals-container .best-deals__top-section {
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}

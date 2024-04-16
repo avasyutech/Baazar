@@ -1,0 +1,65 @@
+@use "../../../sass/base.scss" as *;
+
+.banner {
+  background-color: $orange-100;
+  display: flex;
+  justify-content: space-between;
+
+  &__details {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:40%;
+    padding: 80px 0 80px 72px;
+
+    &__title {
+      color: $gray-900;
+      margin: 12px 0 22px 0;
+    }
+
+    &__desc {
+      color: $gray-900;
+      margin-bottom: 22px;
+    }
+  }
+
+  &__product {
+    width: 536px;
+    background: url("http://localhost:9000/images/laptop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media (max-width:1250px) {
+.banner__details {
+    width:50%;
+}
+    
+}
+
+@media (max-width:1024px) {
+    .banner__details {
+        width:65%;
+    }
+}
+
+@media (max-width:840px) {
+    .banner {
+        flex-direction: column-reverse;
+
+        &__details {
+            width:100%;
+            padding:30px 50px;
+        }
+
+        &__product {
+            height:300px;
+            margin:auto;
+            width: 80%;
+        }
+    }
+}
+
+

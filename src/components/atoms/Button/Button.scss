@@ -1,0 +1,142 @@
+@use "../../../sass/base.scss" as *;
+
+.btn {
+	border: none;
+	cursor: pointer;
+	border-radius: 2px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	gap: 8px;
+	text-transform: uppercase;
+
+	&.btn-small {
+		padding: 0 24px;
+
+	}
+
+	&.btn-large {
+		min-width: 248px;
+		padding: 0 24px;
+
+	}
+
+	&.btn-auto {
+		width: 100%;
+		padding: 0 32px;
+
+	}
+
+	&.btn-primary {
+		background-color: #FA8232;
+		color: $white;
+
+		.left-icon--show {
+			color: #fff;
+
+		}
+
+		.right-icon--show {
+			color: #fff;
+
+		}
+	}
+
+	
+	&.btn-primary-blue {
+		background-color: #2DA5F3;
+		color: $white;
+
+		.left-icon--show {
+			color: #fff;
+
+		}
+
+		.right-icon--show {
+			color: #fff;
+
+		}
+	}
+
+	&.btn-secondary-blue {
+		background-color: transparent;
+		color: #2DA5F3;
+		border: 2px solid #2DA5F3;
+
+		.left-icon--show {
+			color: #2DA5F3;
+
+		}
+
+		.right-icon--show {
+			color: #2DA5F3;
+			
+		}
+	}
+
+	&.btn-secondary {
+		background-color: transparent;
+		color: #FA8232;
+		border: 2px solid #FA8232;
+
+		.left-icon--show {
+			color: #FA8232;
+
+		}
+
+		.right-icon--show {
+			color: #FA8232;
+			
+		}
+	}
+
+	.left-icon {
+		
+		&--show {
+			display: inline-block;
+			width: 24px;
+			height: 24px;
+
+			img {
+				max-width: 100%;
+			}
+
+		}
+
+		&--hide {
+			display: none;
+
+		}
+
+	}
+
+	.right-icon {
+		
+		&--show {
+			display: inline-block;
+			width: 24px;
+			height: 24px;
+
+			img {
+				max-width: 100%;
+			}
+		}
+
+		&--hide {
+			display: none;
+
+		}
+		
+	}
+}
+
+.heading-6 {
+	font-family: Public Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 56px; /* 350% */
+	letter-spacing: 0.192px;
+	text-transform: uppercase;
+}

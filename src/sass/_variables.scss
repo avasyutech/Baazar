@@ -1,0 +1,62 @@
+$bazaar-font-size-base: 1rem;
+$bazaar-line-height-base: 1rem;
+$bazaar-font-family-default: 'Public Sans';
+$bazaar-letter-spacing-default: initial;
+
+//font sizes
+$bazaar-font-size-2xs: $bazaar-font-size-base * 0.6875;//11px
+$bazaar-font-size-xs: $bazaar-font-size-base * 0.75;//12px
+$bazaar-font-size-s: $bazaar-font-size-base * 0.875;//14px
+$bazaar-font-size-m: $bazaar-font-size-base * 1;//16px
+$bazaar-font-size-l: $bazaar-font-size-base * 1.125;//18px
+$bazaar-font-size-xl: $bazaar-font-size-base * 1.25;//20px
+$bazaar-font-size-2xl: $bazaar-font-size-base * 1.375;//22px
+$bazaar-font-size-3xl: $bazaar-font-size-base * 1.5;//24px
+$bazaar-font-size-4xl: $bazaar-font-size-base * 1.75;//28px
+$bazaar-font-size-5xl: $bazaar-font-size-base * 2;//32px
+$bazaar-font-size-6xl: $bazaar-font-size-base * 2.25;//36px
+$bazaar-font-size-7xl: $bazaar-font-size-base * 2.5;//40px
+$bazaar-font-size-8xl: $bazaar-font-size-base * 3;//48px
+$bazaar-font-size-9xl: $bazaar-font-size-base * 3.5;//56px
+$bazaar-font-size-10xl: $bazaar-font-size-base * 4;//64px
+
+//line height
+$bazaar-line-height-auto: auto;
+$bazaar-line-height-2xs: $bazaar-line-height-base * 0.6875;//11px
+$bazaar-line-height-xs: $bazaar-line-height-base * 0.75;//12px
+$bazaar-line-height-s: $bazaar-line-height-base * 0.875;//14px
+$bazaar-line-height-m: $bazaar-line-height-base * 1;//16px
+$bazaar-line-height-l: $bazaar-line-height-base * 1.125;//18px
+$bazaar-line-height-xl: $bazaar-line-height-base * 1.25;//20px
+$bazaar-line-height-2xl: $bazaar-line-height-base * 1.375;//22px
+$bazaar-line-height-3xl: $bazaar-line-height-base * 1.5;//24px
+$bazaar-line-height-3xl-1: $bazaar-line-height-base * 1.6875;//27px
+$bazaar-line-height-4xl: $bazaar-line-height-base * 1.75;//28px
+$bazaar-line-height-5xl: $bazaar-line-height-base * 2;//32px
+$bazaar-line-height-6xl: $bazaar-line-height-base * 2.25;//36px
+$bazaar-line-height-7xl: $bazaar-line-height-base * 2.5;//40px
+$bazaar-line-height-7xl-1: $bazaar-line-height-base * 2.75;//44px
+$bazaar-line-height-8xl: $bazaar-line-height-base * 3;//48px
+$bazaar-line-height-9xl: $bazaar-line-height-base * 3.5;//56px
+$bazaar-line-height-10xl: $bazaar-line-height-base * 4;//64px
+$bazaar-line-height-11xl: $bazaar-line-height-base * 4.5;//72px
+
+//font weight
+$bazaar-font-weight-light : 300;
+$bazaar-font-weight-regular : 400;
+$bazaar-font-weight-semi-bold : 600;
+$bazaar-font-weight-bold : 700;
+
+// Base word spacings
+$bazaar-letter-spacing-regular: 1px;
+$bazaar-letter-spacing-wide: 1.5px;
+$bazaar-letter-spacing-narrow: -1px;
+
+//font-styles
+$bazaar-font-style-normal : normal;
+$bazaar-font-style-italic : italic;
+$bazaar-font-style-oblique : oblique;
+
+//border-radius
+$border-radius: 8px;
+
